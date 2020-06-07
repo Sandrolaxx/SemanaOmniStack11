@@ -1,0 +1,31 @@
+/*
+Rota / Recurso
+*/
+
+/*
+Métodos HTTP:
+GET: Buscar informações do back-and
+POST: Criar uma informação no back-and
+PUT: Alterar uma informação no back-and
+DELETE: Deletar uma informação no back-and
+*/
+
+/*
+Tipos de parâmetros:
+
+Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+Route Params: Parâmetros utilizados para idenificar recursos
+Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+*/
+
+/*
+Tipos de banco:
+
+Relacionais, SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+Não relacionais, NoSQL: MongoDB, CouchDB, Firebase, etc
+*/
+
+/*
+Driver: SELECT * FROM user --> Tipo normal no SQL
+Query Builder: table('users').select('*').where() --> Permite usar JS para manipular o banco
+*/

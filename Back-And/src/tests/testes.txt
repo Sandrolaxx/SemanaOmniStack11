@@ -1,0 +1,5 @@
+Para fazer os testes basta mudar o nome do index, pois se fizer a chamada direta do index, estaremos subindo direto 
+a aplicação, e isso não é o que queremos, então renomeie o index para app e puche ele em server, após isso tire da 
+os testes e monte os test case, também não esqueça de mudar o packege.Json para executar em app.
+
+//.set("Authorization", "asd")Para fazer teste em rotas que pucham o heade
